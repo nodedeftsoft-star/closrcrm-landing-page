@@ -33,8 +33,8 @@ export function Hero() {
             <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
             <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">Resources</a>
-            <a href="https://closr-frontend-stagging.vercel.app/login" className="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors">Sign In</a>
-            <a href="https://closr-frontend-stagging.vercel.app/signup" className="px-6 py-2.5 bg-[#3C8DFF] text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200">
+            <a href="http://localhost:3001/login" className="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors">Sign In</a>
+            <a href="http://localhost:3001/signup" className="px-6 py-2.5 bg-[#3C8DFF] text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200">
               Get Started
             </a>
           </motion.div>
@@ -64,7 +64,7 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <a href="https://closr-frontend-stagging.vercel.app/signup" className="group px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
+              <a href="http://localhost:3001/signup" className="group px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
                 Get Started for $1
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>

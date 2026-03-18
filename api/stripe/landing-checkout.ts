@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import Stripe from 'stripe';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2026-02-28.clover',
+  apiVersion: '2026-01-28.clover'
 });
 
 // Package configuration with descriptions
@@ -10,8 +10,8 @@ const PACKAGE_CONFIG = {
   free: {
     productId: process.env.STRIPE_FREE_PRICE_ID || 'prod_TzmWfjHGp7S2Zn',
     name: 'Free Trial',
-    description: 'Free trial package ($1 then $50/month)',
-    price: 1,
+    description: 'Free trial package (30 days free then $50/month)',
+    price: 0,
     recurringPrice: 50
   },
   buyers_agent: {

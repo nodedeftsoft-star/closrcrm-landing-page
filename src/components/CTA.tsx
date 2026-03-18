@@ -20,7 +20,7 @@ export function CTA() {
             Get started today for just $1.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://closrfrontend.vercel.app/signup" className="group px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
+            <a href="http://localhost:3001/signup" className="group px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2">
               Get Started for $1
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
