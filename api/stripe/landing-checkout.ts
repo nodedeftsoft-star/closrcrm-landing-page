@@ -140,8 +140,8 @@ export default async function handler(
         },
       ],
       mode: price.recurring ? 'subscription' : 'payment',
-      success_url: `${req.headers.origin || 'http://localhost:3000'}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${req.headers.origin || 'http://localhost:3000'}/pricing?cancelled=true`,
+      success_url: `${req.headers.origin || 'https://frontend-alpha-woad-96.vercel.app'}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${req.headers.origin || 'https://frontend-alpha-woad-96.vercel.app'}/pricing?cancelled=true`,
       metadata: {
         package: packageName,
         customer_email: defaultEmail,

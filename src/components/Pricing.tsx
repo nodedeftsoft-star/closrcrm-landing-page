@@ -90,8 +90,8 @@ export function Pricing() {
   const handleSubscribe = (plan: typeof plans[0]) => {
     const existingParams = window.location.search;
     const loginUrl = existingParams 
-      ? `http://192.168.3.17:3001/signup${existingParams}&plan=${plan.package}`
-      : `http://192.168.3.17:3001/signup?plan=${plan.package}`;
+      ? `https://frontend-alpha-woad-96.vercel.app/signup${existingParams}&plan=${plan.package}`
+      : `https://frontend-alpha-woad-96.vercel.app/signup?plan=${plan.package}`;
     window.location.href = loginUrl;
   };
 
